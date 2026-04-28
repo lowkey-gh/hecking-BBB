@@ -7,10 +7,9 @@ void disable_watchdog();
 void enable_gpio_1_clk();
 
 // GENERIC
-void gpio_1_21_output();
+void gpio_output(volatile unsigned int * gpio_base, int bit);
 
 // Pass GPIO Pin for it to "blink" 
-void blink();
-
+void blink(const unsigned int led_pin);
 
 #endif

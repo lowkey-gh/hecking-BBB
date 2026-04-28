@@ -27,8 +27,12 @@
 #define GPIO_DATAOUT            0x13C           // data out register
 #define GPIO_SETDATAOUT         0x194           // set reg
 #define GPIO_CLEARDATAOUT       0x190           // clear reg
-#define LED_PIN                 21
-#define LED_BIT                 (1<<LED_PIN)
+						//
+#define USR_0_LED_PIN           21
+#define USR_1_LED_PIN           22
+#define USR_2_LED_PIN           23
+#define USR_3_LED_PIN           24
+
 
 #endif 
 
